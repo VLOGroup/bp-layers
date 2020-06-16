@@ -20,6 +20,12 @@ The repository is structured as follows:
     - 'data' includes sample images for stereo/semantic/flow inference
     - 'ops' contains custom PyTorch-Ops which need to be installed before running the respective stereo/semantic implementation (note that this is also taken care of by the run_*.sh scripts)
 
+For your convenience, the required libraries are added as submodules. To clone them issue the command 
+
+~~~
+git submodule update --init --recursive
+~~~
+
 ## Dependencies
 
 * Cuda 10.2
