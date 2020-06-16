@@ -1,5 +1,5 @@
 # BP-Layers
-This repository contains the implementation for our publication "Belief Propagation Reloaded: Learning BP-Layers for Labeling Problems". If you use this implemenation please cite the following publication:
+This repository contains the implementation for our publication "Belief Propagation Reloaded: Learning BP-Layers for Labeling Problems". If you use this implementation please cite the following publication:
 
 ~~~
 @InProceedings{Knobelreiter_2020_CVPR,
