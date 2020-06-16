@@ -1,13 +1,15 @@
 # BP-Layers
 This repository contains the implementation for our publication "Belief Propagation Reloaded: Learning BP-Layers for Labeling Problems". If you use this implemenation please cite the following publication:
 
+~~~
 @InProceedings{Knobelreiter_2020_CVPR,
-author = {Knöbelreiter, Patrick and Sormann, Christian and Shekhovtsov, Alexander and Fraundorfer, Friedrich and Pock, Thomas},
-title = {Belief Propagation Reloaded: Learning BP-Layers for Labeling Problems},
-booktitle = {The IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
-month = {June},
-year = {2020}
+  author = {Knöbelreiter, Patrick and Sormann, Christian and Shekhovtsov, Alexander and Fraundorfer, Friedrich and Pock, Thomas},
+  title = {Belief Propagation Reloaded: Learning BP-Layers for Labeling Problems},
+  booktitle = {The IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+  month = {June},
+  year = {2020}
 } 
+~~~
 
 <p align="center"><img width=100% src="github_imgs/teaser.gif"></p>
 
@@ -59,7 +61,9 @@ After installing all of the required dependencies above you can run the implemen
 
 
 
+~~~
 sh run_semantic_pixel.sh
+~~~
 
 Should yield this result:
 
