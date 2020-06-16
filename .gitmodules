@@ -1,0 +1,3 @@
+[submodule "dependencies/ESPNet"]
+	path = dependencies/ESPNet
+	url = https://github.com/sacmehta/ESPNet.git
