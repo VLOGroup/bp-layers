@@ -31,13 +31,29 @@ git submodule update --init --recursive
 * Cuda 10.2
 * pytorch >= 1.3
 * argparse
-* imageio
+* imageio (with libpfm installed)*
 * numpy
+
+The stereo results are saved as pfm images. If your imageio does not have libpfm installed automatically, execute the following command in a python:
+
+~~~
+imageio.plugins.freeimage.download()
+~~~
+
+In order to display pfm files we highly recommend the tool provided by the Middlebury stereo benchmark. You can find it <a href="https://github.com/roboception/cvkit">here</a>.
 
 
 ## Running the implementation
 
-After installing all of the required dependencies above you can run the implementation for specific tasks via the respective shell scripts. We provide the following files:
+After installing all of the required dependencies above you need to install the provided modules to you python environment. This can be done with
+
+~~~
+cd ops
+python setup.py install
+~~~
+
+This will install the SAD matching kernels for stereo and Optical flow. The BP-Layer is installed automatically upon execution of the provided shell scripts. The following sections show how to use them.
+
 
 ### Stereo
 * run_stereo_sf.sh: The models trained on the Scene-Flow Dataset
